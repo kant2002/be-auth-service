@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { AuthDocumentType, AuthEntryPoint, PlatformType, SessionType } from '@diia-inhouse/types'
+import { AuthDocumentType, AuthEntryPoint, PlatformType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { AuthEntryPointHistory, RefreshToken } from '@interfaces/models/refreshToken'
 

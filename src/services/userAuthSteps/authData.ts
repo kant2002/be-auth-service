@@ -1,8 +1,8 @@
 import { FilterQuery, UpdateQuery, UpdateWriteOpResult } from 'mongoose'
 
-import { AccessDeniedError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { Logger } from '@diia-inhouse/types'
+import { AccessDeniedError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import userAuthStepsModel from '@models/userAuthSteps'
 

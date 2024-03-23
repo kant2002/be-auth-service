@@ -1,7 +1,7 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
-import { asserts } from '@diia-inhouse/utils'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
+import { asserts } from '@kant2002-diia-inhouse/utils'
 
 import RefreshTokenService from '@services/refreshToken'
 

@@ -1,12 +1,12 @@
 import { asClass, asFunction, asValue } from 'awilix'
 
-import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@diia-inhouse/diia-app'
+import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { AuthService, CryptoDeps, CryptoService, HashService, IdentifierService } from '@diia-inhouse/crypto'
-import { DatabaseService, DbType } from '@diia-inhouse/db'
-import { BankIdCryptoServiceDefinition, CryptoDocServiceDefinition } from '@diia-inhouse/diia-crypto-client'
-import DiiaLogger from '@diia-inhouse/diia-logger'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { AuthService, CryptoDeps, CryptoService, HashService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { DatabaseService, DbType } from '@kant2002-diia-inhouse/db'
+import { BankIdCryptoServiceDefinition, CryptoDocServiceDefinition } from '@kant2002-diia-inhouse/diia-crypto-client'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
 import {
     EventBus,
     EventMessageHandler,
@@ -20,12 +20,12 @@ import {
     ScheduledTask,
     ScheduledTaskQueueName,
     Task,
-} from '@diia-inhouse/diia-queue'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { HttpDeps, HttpService } from '@diia-inhouse/http'
-import { I18nService } from '@diia-inhouse/i18n'
-import { CacheService, PubSubService, RedisDeps, RedlockService, StoreService } from '@diia-inhouse/redis'
-import { HttpProtocol } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/diia-queue'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { HttpDeps, HttpService } from '@kant2002-diia-inhouse/http'
+import { I18nService } from '@kant2002-diia-inhouse/i18n'
+import { CacheService, PubSubService, RedisDeps, RedlockService, StoreService } from '@kant2002-diia-inhouse/redis'
+import { HttpProtocol } from '@kant2002-diia-inhouse/types'
 
 import Utils from './utils'
 

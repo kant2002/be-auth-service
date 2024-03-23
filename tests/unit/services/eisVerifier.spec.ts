@@ -1,8 +1,8 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ServiceUnavailableError, UnauthorizedError } from '@diia-inhouse/errors'
-import { HttpService } from '@diia-inhouse/http'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ServiceUnavailableError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import EisUserApprovalVerificationService from '@services/eisVerifier'
 

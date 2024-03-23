@@ -1,6 +1,6 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
-import { PlatformType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 const fakeModelMock = {
     isActive: true,

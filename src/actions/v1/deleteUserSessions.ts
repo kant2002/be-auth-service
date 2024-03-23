@@ -1,7 +1,7 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ErrorType, UnauthorizedError } from '@diia-inhouse/errors'
-import { ActionVersion, PlatformType, SessionType } from '@diia-inhouse/types'
+import { ErrorType, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, PlatformType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import SessionService from '@services/session'
 

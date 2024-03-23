@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid'
 
-import TestKit from '@diia-inhouse/test/*'
-import { PlatformType } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test/*'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import GetUserSessionsAction from '@src/actions/v1/getUserSessions'
 

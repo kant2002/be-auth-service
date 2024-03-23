@@ -1,6 +1,6 @@
 import { Document } from 'mongoose'
 
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { UserAuthStepsStatus } from '@interfaces/models/userAuthSteps'
 import { ProcessCode } from '@interfaces/services'

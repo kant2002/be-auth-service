@@ -4,9 +4,9 @@ import { readFileSync } from 'fs'
 import { compare as compareSemver } from 'compare-versions'
 import { FilterQuery } from 'mongoose'
 
-import { BadRequestError, InternalServerError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { I18nService } from '@diia-inhouse/i18n'
-import { PlatformType } from '@diia-inhouse/types'
+import { BadRequestError, InternalServerError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { I18nService } from '@kant2002-diia-inhouse/i18n'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import authSchemaModel from '@models/authSchema'
 

@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { ServiceUserSession } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ServiceUserSession } from '@kant2002-diia-inhouse/types'
 
 import AcquirerLoginAction from '@actions/v1/acquirerLogin'
 

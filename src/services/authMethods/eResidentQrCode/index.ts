@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { AccessDeniedError, BadRequestError, NotFoundError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { EResidency, Logger } from '@diia-inhouse/types'
+import { AccessDeniedError, BadRequestError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { EResidency, Logger } from '@kant2002-diia-inhouse/types'
 
 import DocumentsService from '@services/documents'
 

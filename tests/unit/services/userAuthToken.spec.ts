@@ -1,9 +1,9 @@
 import { ObjectId } from 'bson'
 
-import { AuthService as AuthCryptoService, IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { AuthService as AuthCryptoService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     AuthDocumentType,
     DocumentTypeCamelCase,
@@ -13,7 +13,7 @@ import {
     SessionType,
     User,
     UserTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import Utils from '@src/utils'
 

@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid'
 
-import { AuthEntryPoint, PlatformType, SessionType } from '@diia-inhouse/types'
+import { AuthEntryPoint, PlatformType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { AuthMethod } from '@interfaces/models/authSchema'
 import { RefreshToken, RefreshTokenModel } from '@interfaces/models/refreshToken'

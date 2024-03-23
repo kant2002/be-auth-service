@@ -1,7 +1,7 @@
-import { EventBusListener, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { BadRequestError } from '@diia-inhouse/errors'
-import { AuthDocumentType } from '@diia-inhouse/types'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBusListener, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { AuthDocumentType } from '@kant2002-diia-inhouse/types'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import NfcService from '@services/nfc'
 

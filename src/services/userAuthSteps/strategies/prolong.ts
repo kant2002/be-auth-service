@@ -1,5 +1,5 @@
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import { DocumentType, Logger, SessionType, User } from '@diia-inhouse/types'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, Logger, SessionType, User } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 import UserAuthStepsAuthDataService from '@services/userAuthSteps/authData'

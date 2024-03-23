@@ -2,11 +2,11 @@ import { ParsedUrlQueryInput } from 'querystring'
 
 import { v4 as uuid } from 'uuid'
 
-import { BankIdCryptoServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { AccessDeniedError, BadRequestError, ServiceUnavailableError, UnauthorizedError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse } from '@diia-inhouse/http'
-import { Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { BankIdCryptoServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { AccessDeniedError, BadRequestError, ServiceUnavailableError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse } from '@kant2002-diia-inhouse/http'
+import { Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import BankService from '@services/bank'
 import BankIdAuthRequestService from '@services/bankIdAuthRequest'

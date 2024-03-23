@@ -1,9 +1,9 @@
 import { FilterQuery, ObjectId, UpdateQuery, UpdateWriteOpResult } from 'mongoose'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ModelNotFoundError, UnauthorizedError } from '@diia-inhouse/errors'
-import { Logger, RefreshToken, SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ModelNotFoundError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { Logger, RefreshToken, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { GenerateRefreshTokenHelper } from '@src/helpers/generateRefreshToken'
 

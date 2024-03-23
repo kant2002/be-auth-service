@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto'
 
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { SessionType, UserSession } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { SessionType, UserSession } from '@kant2002-diia-inhouse/types'
 
 import CompleteUserAuthStepsAction from '@actions/v1/completeUserAuthSteps'
 

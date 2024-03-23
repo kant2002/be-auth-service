@@ -1,6 +1,6 @@
 import { compare as compareSemver } from 'compare-versions'
 
-import { Logger, PlatformType } from '@diia-inhouse/types'
+import { Logger, PlatformType } from '@kant2002-diia-inhouse/types'
 
 import fakeBankLoginSettingsModel from '@models/fakeBankLoginSettings'
 

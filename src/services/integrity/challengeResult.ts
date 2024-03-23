@@ -1,5 +1,5 @@
-import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@diia-inhouse/analytics'
-import { ActHeaders } from '@diia-inhouse/types'
+import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { ActHeaders } from '@kant2002-diia-inhouse/types'
 
 import { IntegrityChallenge } from '@interfaces/models/integrity/integrityChallenge'
 

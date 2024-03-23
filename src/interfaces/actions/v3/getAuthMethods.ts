@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, ServiceActionArguments, UserSession } from '@diia-inhouse/types'
+import { AppUserActionHeaders, ServiceActionArguments, UserSession } from '@kant2002-diia-inhouse/types'
 
 import { AuthMethodsResponse, SchemaCode } from '@interfaces/services/userAuthSteps'
 

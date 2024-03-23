@@ -2,9 +2,9 @@ import { randomUUID } from 'crypto'
 
 import { ObjectId } from 'bson'
 
-import { AuthService, IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
+import { AuthService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
 import {
     AccessDeniedError,
     ApiError,
@@ -13,8 +13,8 @@ import {
     NotFoundError,
     ServiceUnavailableError,
     UnauthorizedError,
-} from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+} from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     PartnerPaymentScope,
     PartnerScopeType,
@@ -23,8 +23,8 @@ import {
     PortalUserPollPermissions,
     PortalUserTokenData,
     SessionType,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import Utils from '@src/utils'
 

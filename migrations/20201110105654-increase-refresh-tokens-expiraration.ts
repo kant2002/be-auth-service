@@ -3,7 +3,7 @@
 import 'module-alias/register'
 import { AnyBulkWriteOperation, BulkWriteResult, Db, Filter, FindCursor, UpdateFilter, WithId } from 'mongodb'
 
-import { Env } from '@diia-inhouse/env'
+import { Env } from '@kant2002-diia-inhouse/env'
 
 import { RefreshToken } from '@interfaces/models/refreshToken'
 

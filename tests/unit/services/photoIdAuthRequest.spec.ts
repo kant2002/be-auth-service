@@ -14,10 +14,10 @@ const photoIdAuthRequestModelMock = {
 
 jest.mock('@models/photoIdAuthRequest', () => photoIdAuthRequestModelMock)
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, BadRequestError, ModelNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, BadRequestError, ModelNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import PhotoIdAuthRequestService from '@services/photoIdAuthRequest'
 import UserService from '@services/user'

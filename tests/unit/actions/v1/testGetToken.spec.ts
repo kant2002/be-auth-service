@@ -1,6 +1,6 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { Gender } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { Gender } from '@kant2002-diia-inhouse/types'
 
 import TestGetTokenAction from '@actions/v1/testGetToken'
 

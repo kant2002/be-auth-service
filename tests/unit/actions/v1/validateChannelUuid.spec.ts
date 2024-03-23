@@ -1,6 +1,6 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import Utils from '@src/utils'
 

@@ -1,7 +1,7 @@
-import { AnalyticsActionResult } from '@diia-inhouse/analytics'
-import { AuthService, IdentifierService } from '@diia-inhouse/crypto'
-import { EnvService } from '@diia-inhouse/env'
-import { BadRequestError } from '@diia-inhouse/errors'
+import { AnalyticsActionResult } from '@kant2002-diia-inhouse/analytics'
+import { AuthService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
 import {
     AppUserActionHeaders,
     AuthDocument,
@@ -13,8 +13,8 @@ import {
     SessionType,
     User,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import Utils from '@src/utils'
 

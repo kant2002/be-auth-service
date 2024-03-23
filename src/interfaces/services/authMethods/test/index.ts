@@ -1,4 +1,4 @@
-import { Gender } from '@diia-inhouse/types'
+import { Gender } from '@kant2002-diia-inhouse/types'
 
 export interface TestUserDTO {
     fName: string

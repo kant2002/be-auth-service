@@ -1,8 +1,8 @@
 import { asClass } from 'awilix'
 
-import { DepsFactoryFn } from '@diia-inhouse/diia-app'
+import { DepsFactoryFn } from '@kant2002-diia-inhouse/diia-app'
 
-import TestKit from '@diia-inhouse/test'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import deps from '@src/deps'
 

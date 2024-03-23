@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { IdentifierPrefix, SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { IdentifierPrefix, SessionType } from '@kant2002-diia-inhouse/types'
 
 import AuthService from '@services/auth'
 import EResidentFirstAuthService from '@services/eResidentFirstAuth'

@@ -1,4 +1,4 @@
-import { PlatformType, ServiceActionArguments, SessionType, TokenData } from '@diia-inhouse/types'
+import { PlatformType, ServiceActionArguments, SessionType, TokenData } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends ServiceActionArguments {
     params: {

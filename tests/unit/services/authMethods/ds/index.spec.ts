@@ -4,10 +4,10 @@ const uuidV4Stub = jest.fn()
 
 jest.mock('uuid', () => ({ v4: uuidV4Stub }))
 
-import { VerifyInfoResponse } from '@diia-inhouse/diia-crypto-client'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { VerifyInfoResponse } from '@kant2002-diia-inhouse/diia-crypto-client'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import DsProvider from '@services/authMethods/ds'
 import DiiaSignatureService from '@services/diiaSignature'

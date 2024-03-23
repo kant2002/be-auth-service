@@ -1,6 +1,6 @@
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { mockInstance } from '@diia-inhouse/test'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import BankIdAuthRequestService from '@services/bankIdAuthRequest'
 

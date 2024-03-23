@@ -3,7 +3,7 @@
 import 'module-alias/register'
 import { Db, Filter, UpdateFilter } from 'mongodb'
 
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { AuthSchema, FldAndroidConfig, FldAndroidConfigV1, FldConfig, FldConfigVersion } from '@interfaces/models/authSchema'
 

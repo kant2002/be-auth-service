@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { UserSession, UserTokenData } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { UserSession, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import GetUserSessionByIdAction from '@actions/v1/getUserSessionById'
 

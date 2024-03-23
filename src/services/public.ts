@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, EResidentTokenData, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, EResidentTokenData, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { GetEResidentPEApplicationDetailsResponse } from '@interfaces/services/public'
 

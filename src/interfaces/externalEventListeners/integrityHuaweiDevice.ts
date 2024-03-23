@@ -1,4 +1,4 @@
-import { ActHeaders } from '@diia-inhouse/types'
+import { ActHeaders } from '@kant2002-diia-inhouse/types'
 
 import { ExternalResponseBaseEventPayload } from '@interfaces/externalEventListeners/index'
 import { HuaweiIntegrityResultData } from '@interfaces/models/integrity/huaweiIntegrityCheck'

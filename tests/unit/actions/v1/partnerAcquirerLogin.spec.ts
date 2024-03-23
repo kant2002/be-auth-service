@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { PartnerScopes, PartnerSession, SessionType } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PartnerScopes, PartnerSession, SessionType } from '@kant2002-diia-inhouse/types'
 
 import PartnerAcquirerLoginAction from '@actions/v1/partnerAcquirerLogin'
 

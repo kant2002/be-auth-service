@@ -1,6 +1,6 @@
 import { SetRequired } from 'type-fest'
 
-import { ActHeaders, AuthEntryPoint, PlatformType } from '@diia-inhouse/types'
+import { ActHeaders, AuthEntryPoint, PlatformType } from '@kant2002-diia-inhouse/types'
 
 export interface RefreshTokenOps {
     prolongLifetime?: boolean

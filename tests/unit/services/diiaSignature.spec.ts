@@ -1,7 +1,7 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion } from '@diia-inhouse/types'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion } from '@kant2002-diia-inhouse/types'
 
 import DiiaSignatureService from '@services/diiaSignature'
 

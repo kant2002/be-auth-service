@@ -1,8 +1,8 @@
 import { cloneDeep, merge, set } from 'lodash'
 
-import { AnalyticsActionResult } from '@diia-inhouse/analytics'
-import { AuthService as AuthCryptoService, IdentifierOps, IdentifierService } from '@diia-inhouse/crypto'
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
+import { AnalyticsActionResult } from '@kant2002-diia-inhouse/analytics'
+import { AuthService as AuthCryptoService, IdentifierOps, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
 import {
     AuthEntryPoint,
     EResidentApplicant,
@@ -15,8 +15,8 @@ import {
     User,
     UserActionHeaders,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { asserts, utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { asserts, utils } from '@kant2002-diia-inhouse/utils'
 
 import Utils from '@src/utils'
 

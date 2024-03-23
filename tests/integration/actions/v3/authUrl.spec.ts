@@ -2,8 +2,8 @@
 /* eslint-disable jest/no-conditional-in-test */
 import nock from 'nock'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { utils } from '@diia-inhouse/utils'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import AuthUrlAction from '@actions/v3/authUrl'
 import GetAuthMethodsAction from '@actions/v3/getAuthMethods'

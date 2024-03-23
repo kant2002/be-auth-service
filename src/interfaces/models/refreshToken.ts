@@ -1,6 +1,6 @@
 import { Document } from 'mongoose'
 
-import { AuthEntryPoint, SessionType } from '@diia-inhouse/types'
+import { AuthEntryPoint, SessionType } from '@kant2002-diia-inhouse/types'
 
 export interface AuthEntryPointHistory {
     authEntryPoint: AuthEntryPoint

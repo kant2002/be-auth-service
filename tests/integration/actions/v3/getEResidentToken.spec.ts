@@ -1,7 +1,7 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { AccessDeniedError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { AccessDeniedError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import VerifyAuthMethodAction from '@actions/v1/verifyAuthMethod'
 import AuthUrlAction from '@actions/v3/authUrl'

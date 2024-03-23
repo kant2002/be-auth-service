@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, PublicServiceKebabCaseCode, UserTokenData } from '@diia-inhouse/types'
+import { AppUserActionHeaders, PublicServiceKebabCaseCode, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { AuthMethod, AuthSchema, AuthSchemaCode, AuthSchemaCondition, AuthSchemaMethod } from '@interfaces/models/authSchema'
 import { UserAuthStepsModel, UserAuthStepsStatus } from '@interfaces/models/userAuthSteps'

@@ -1,5 +1,5 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import UserAuthStepsAuthDataService from '@services/userAuthSteps/authData'
 import UserAuthTokenService from '@services/userAuthToken'

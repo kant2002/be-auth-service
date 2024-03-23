@@ -1,5 +1,5 @@
-import { CacheService } from '@diia-inhouse/redis'
-import { mockInstance } from '@diia-inhouse/test'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import TokenCacheService from '@services/tokenCache'
 

@@ -1,4 +1,4 @@
-import { ServiceActionArguments } from '@diia-inhouse/types'
+import { ServiceActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { AuthSchemaCode } from '@interfaces/models/authSchema'
 import { RevokeSubmitAfterUserAuthStepsResult } from '@interfaces/services/userAuthSteps'

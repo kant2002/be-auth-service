@@ -1,4 +1,4 @@
-import { BadRequestError } from '@diia-inhouse/errors'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
 
 import UserAuthTokenService from '@services/userAuthToken'
 

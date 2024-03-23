@@ -1,6 +1,6 @@
 import { CompleteUserAuthStepsRequest } from '@generated/auth'
 
-import { UserActionArguments } from '@diia-inhouse/types'
+import { UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends UserActionArguments {
     params: CompleteUserAuthStepsRequest

@@ -1,8 +1,8 @@
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { ExternalCommunicatorError, NotFoundError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { HttpStatusCode, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ExternalCommunicatorError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { AppConfig } from '@interfaces/config'
 import { AuthSchemaCode } from '@interfaces/models/authSchema'

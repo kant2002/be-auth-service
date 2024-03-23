@@ -1,4 +1,4 @@
-import { BadRequestError } from '@diia-inhouse/errors'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
 
 import BankIdAuthMethodService from '@services/authMethods/bankId'
 import DsAuthMethodService from '@services/authMethods/ds'

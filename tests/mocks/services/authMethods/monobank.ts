@@ -1,7 +1,7 @@
 import * as Endpoint from 'monobank-api-client/src/Endpoint'
 import nock from 'nock'
 
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import MonobankAuthMethodService from '@services/authMethods/monobank'
 

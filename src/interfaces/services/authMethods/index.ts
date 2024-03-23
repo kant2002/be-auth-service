@@ -1,4 +1,4 @@
-import { EResidency, EResidentApplicant } from '@diia-inhouse/types'
+import { EResidency, EResidentApplicant } from '@kant2002-diia-inhouse/types'
 
 import { AuthSchemaCode } from '@interfaces/models/authSchema'
 import { AuthMethodVerifyParams, AuthProviderHeaders, AuthUrlOps } from '@interfaces/services/auth'

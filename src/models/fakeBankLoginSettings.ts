@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { FakeBankLoginSettings } from '@interfaces/models/fakeBankLoginSettings'
 import { Bank } from '@interfaces/services/bank'

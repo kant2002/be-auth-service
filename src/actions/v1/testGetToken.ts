@@ -1,8 +1,8 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { ActionVersion, Gender, SessionType } from '@diia-inhouse/types'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { ActionVersion, Gender, SessionType } from '@kant2002-diia-inhouse/types'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import TestService from '@services/test'
 

@@ -2,9 +2,9 @@
 /* eslint-disable jest/no-conditional-in-test */
 import moment from 'moment'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { UserSession } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { UserSession } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import CompleteUserAuthStepsAction from '@actions/v1/completeUserAuthSteps'
 import AuthUrlAction from '@actions/v3/authUrl'

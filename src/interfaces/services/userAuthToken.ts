@@ -6,7 +6,7 @@ import {
     EResidentApplicantTokenData,
     SessionType,
     User,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { MrzPayload, QesPayload, QrCodePayload } from './userAuthSteps'
 

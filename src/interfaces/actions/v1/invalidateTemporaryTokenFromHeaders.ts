@@ -1,4 +1,4 @@
-import { ActHeaders, ServiceActionArguments } from '@diia-inhouse/types'
+import { ActHeaders, ServiceActionArguments } from '@kant2002-diia-inhouse/types'
 
 interface ActionHeaders extends ActHeaders {
     ticket: string

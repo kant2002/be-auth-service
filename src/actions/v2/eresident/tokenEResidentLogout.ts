@@ -1,7 +1,7 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import { ActionVersion, EResidentApplicantTokenData, EResidentTokenData, SessionType } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { ActionVersion, EResidentApplicantTokenData, EResidentTokenData, SessionType } from '@kant2002-diia-inhouse/types'
 
 import RefreshTokenService from '@services/refreshToken'
 

@@ -1,6 +1,6 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit from '@diia-inhouse/test'
-import { ServiceUserSession } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { ServiceUserSession } from '@kant2002-diia-inhouse/types'
 
 import RequestServiceUserTwoFactorQrCodeAction from '@actions/v1/serviceUser/requestServiceUserTwoFactorQrCode'
 

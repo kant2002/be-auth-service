@@ -1,4 +1,4 @@
-import { DurationMs, DurationS, SessionType } from '@diia-inhouse/types'
+import { DurationMs, DurationS, SessionType } from '@kant2002-diia-inhouse/types'
 
 import TokenExpirationService from '@services/tokenExpiration'
 

@@ -1,4 +1,4 @@
-import { UserActionArguments } from '@diia-inhouse/types'
+import { UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { SessionWithActions } from '@interfaces/services/session'
 

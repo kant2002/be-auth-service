@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { UserSession } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { UserSession } from '@kant2002-diia-inhouse/types'
 
 import CreateBankIdAuthUrlAction from '@actions/v1/createBankIdAuthUrl'
 

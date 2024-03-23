@@ -1,4 +1,4 @@
-import { ServiceOperator } from '@diia-inhouse/diia-app'
+import { ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
 import UserSessionGenerator from '../userSession'
 

@@ -1,9 +1,9 @@
 import { FilterQuery, QueryOptions, UpdateQuery } from 'mongoose'
 import { v4 as uuid } from 'uuid'
 
-import { ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, BadRequestError, ModelNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, BadRequestError, ModelNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

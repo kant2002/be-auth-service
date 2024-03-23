@@ -1,8 +1,8 @@
 import { ObjectId } from 'bson'
 import { v4 as uuid } from 'uuid'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import { SessionType } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import AcquirerLoginAction from '@actions/v1/acquirerLogin'
 

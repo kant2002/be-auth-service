@@ -1,5 +1,5 @@
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
 
 export default class BankIdAuthRequestService {
     constructor(private readonly cache: CacheService) {}

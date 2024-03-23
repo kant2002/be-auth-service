@@ -1,7 +1,7 @@
-import { AuthService } from '@diia-inhouse/crypto'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, Gender, OwnerType, UserTokenData, VerifiedBaseTokenData } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, Gender, OwnerType, UserTokenData, VerifiedBaseTokenData } from '@kant2002-diia-inhouse/types'
 
 import OpenIdService from '@services/openId'
 import UserService from '@services/user'

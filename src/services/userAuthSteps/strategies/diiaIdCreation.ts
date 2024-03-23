@@ -1,6 +1,6 @@
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import UserAuthTokenService from '@services/userAuthToken'
 

@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError, BadRequestError, InternalServerError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { AuthDocumentType, EResidentApplicant, Logger } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError, BadRequestError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { AuthDocumentType, EResidentApplicant, Logger } from '@kant2002-diia-inhouse/types'
 
 import Utils from '@src/utils'
 

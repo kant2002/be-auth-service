@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
 import {
     ActionVersion,
     AppUserActionHeaders,
@@ -11,7 +11,7 @@ import {
     SessionType,
     UserSession,
     UserTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { generateItn } from './randomData'
 

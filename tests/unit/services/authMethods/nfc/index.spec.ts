@@ -4,13 +4,13 @@ const uuidV4Stub = jest.fn()
 const phoneticCheckerMock = { getEqualityCoefficient: jest.fn() }
 
 jest.mock('uuid', () => ({ v4: uuidV4Stub }))
-jest.mock('@diia-inhouse/utils', () => ({ phoneticChecker: phoneticCheckerMock }))
+jest.mock('@kant2002-diia-inhouse/utils', () => ({ phoneticChecker: phoneticCheckerMock }))
 
-import { AnalyticsActionResult, AnalyticsService } from '@diia-inhouse/analytics'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, BadRequestError, NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentTypeCamelCase } from '@diia-inhouse/types'
+import { AnalyticsActionResult, AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, BadRequestError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentTypeCamelCase } from '@kant2002-diia-inhouse/types'
 
 import NfcProvider from '@services/authMethods/nfc'
 import NfcService from '@services/nfc'

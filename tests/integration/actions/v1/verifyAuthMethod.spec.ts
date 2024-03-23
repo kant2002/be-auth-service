@@ -1,7 +1,7 @@
-import { AuthService, IdentifierService } from '@diia-inhouse/crypto'
-import { BankIdCryptoServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { AuthEntryPoint, HttpStatusCode, RefreshToken, SessionType, UserSession } from '@diia-inhouse/types'
+import { AuthService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { BankIdCryptoServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { AuthEntryPoint, HttpStatusCode, RefreshToken, SessionType, UserSession } from '@kant2002-diia-inhouse/types'
 
 import ProlongSessionAction from '@actions/v1/prolongSession'
 import VerifyAuthMethodAction from '@actions/v1/verifyAuthMethod'

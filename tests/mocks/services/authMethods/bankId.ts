@@ -1,8 +1,8 @@
 import nock from 'nock'
 
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { StoreService } from '@diia-inhouse/redis'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { generateItn } from '@mocks/randomData'
 

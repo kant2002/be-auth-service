@@ -1,4 +1,4 @@
-import { DocumentTypeCamelCase } from '@diia-inhouse/types'
+import { DocumentTypeCamelCase } from '@kant2002-diia-inhouse/types'
 
 import { GenderAsSex } from '@interfaces/services/authMethods'
 

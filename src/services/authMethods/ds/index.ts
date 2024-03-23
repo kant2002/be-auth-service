@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { CryptoDocServiceClient, SignOwnerInfo } from '@diia-inhouse/diia-crypto-client'
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { CryptoDocServiceClient, SignOwnerInfo } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import DiiaSignatureService from '@services/diiaSignature'
 import DocumentAcquirersService from '@services/documentAcquirers'

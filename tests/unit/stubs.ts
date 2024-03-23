@@ -1,4 +1,4 @@
-import { ApiError, ErrorData } from '@diia-inhouse/errors'
+import { ApiError, ErrorData } from '@kant2002-diia-inhouse/errors'
 
 export class MongoDbApiError extends ApiError {
     keyValue: ErrorData | undefined

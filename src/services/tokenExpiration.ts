@@ -1,6 +1,6 @@
 import ms from 'ms'
 
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 

@@ -1,10 +1,10 @@
 import { randomUUID } from 'crypto'
 
-import { CryptoService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { BadRequestError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, DocumentTypeCamelCase } from '@diia-inhouse/types'
+import { CryptoService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, DocumentTypeCamelCase } from '@kant2002-diia-inhouse/types'
 
 import AuthService from '@services/auth'
 import DocumentsService from '@services/documents'

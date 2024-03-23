@@ -1,7 +1,7 @@
 import { v5 as uuidv5 } from 'uuid'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { SessionType, User } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { SessionType, User } from '@kant2002-diia-inhouse/types'
 
 import UserAuthStepsAuthDataService from '@services/userAuthSteps/authData'
 import UserAuthTokenService from '@services/userAuthToken'

@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, DocumentType, EResidency, SessionType, UserTokenData } from '@diia-inhouse/types'
+import { ActionVersion, DocumentType, EResidency, SessionType, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { CheckPassportResult, EResidencyCountryInfo } from '@interfaces/services/documents'
 import { GetEResidencyToProcessParams } from '@interfaces/services/userAuthSteps'

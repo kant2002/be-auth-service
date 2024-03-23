@@ -1,9 +1,9 @@
 import Endpoint from 'monobank-api-client/src/Endpoint'
 import Signer from 'monobank-api-client/src/Signer'
 
-import { BadRequestError, HttpError, UnauthorizedError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@diia-inhouse/http'
-import { Logger } from '@diia-inhouse/types'
+import { BadRequestError, HttpError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@kant2002-diia-inhouse/http'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 import { AuthProviderFactory } from '@interfaces/services/authMethods'

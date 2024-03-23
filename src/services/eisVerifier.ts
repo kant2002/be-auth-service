@@ -1,6 +1,6 @@
-import { HttpError, ServiceUnavailableError, UnauthorizedError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse } from '@diia-inhouse/http'
-import { ActHeaders, HttpStatusCode, Logger } from '@diia-inhouse/types'
+import { HttpError, ServiceUnavailableError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse } from '@kant2002-diia-inhouse/http'
+import { ActHeaders, HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 

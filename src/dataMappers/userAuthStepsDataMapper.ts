@@ -1,5 +1,5 @@
-import { BadRequestError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { AuthMethod, AuthSchemaModel } from '@interfaces/models/authSchema'
 import { UserAuthStep, UserAuthStepsModel } from '@interfaces/models/userAuthSteps'

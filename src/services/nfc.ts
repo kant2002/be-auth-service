@@ -1,9 +1,9 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { ExternalCommunicator, ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { InternalServerError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { DocumentTypeCamelCase, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { ExternalCommunicator, ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { InternalServerError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { DocumentTypeCamelCase, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import UserService from '@services/user'
 

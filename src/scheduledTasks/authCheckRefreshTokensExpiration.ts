@@ -1,4 +1,4 @@
-import { EventBusListener, ScheduledTaskEvent } from '@diia-inhouse/diia-queue'
+import { EventBusListener, ScheduledTaskEvent } from '@kant2002-diia-inhouse/diia-queue'
 
 import RefreshTokenService from '@services/refreshToken'
 

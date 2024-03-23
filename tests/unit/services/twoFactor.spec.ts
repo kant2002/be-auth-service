@@ -1,6 +1,6 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import EnemyTrackProvider from '@src/providers/enemyTrack/telegramBot'
 

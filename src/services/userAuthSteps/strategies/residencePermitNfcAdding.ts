@@ -1,7 +1,7 @@
-import { CryptoService, DocumentDecryptedData } from '@diia-inhouse/crypto'
-import { BadRequestError } from '@diia-inhouse/errors'
-import { DocumentType, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { CryptoService, DocumentDecryptedData } from '@kant2002-diia-inhouse/crypto'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import AuthService from '@services/auth'
 import DocumentsService from '@services/documents'

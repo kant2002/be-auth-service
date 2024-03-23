@@ -1,6 +1,6 @@
 import { v4 } from 'uuid'
 
-import { RefreshToken } from '@diia-inhouse/types'
+import { RefreshToken } from '@kant2002-diia-inhouse/types'
 
 export class GenerateRefreshTokenHelper {
     value: string

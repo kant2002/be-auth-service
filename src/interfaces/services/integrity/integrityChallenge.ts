@@ -1,6 +1,6 @@
 import { SetRequired } from 'type-fest'
 
-import { ActHeaders } from '@diia-inhouse/types'
+import { ActHeaders } from '@kant2002-diia-inhouse/types'
 
 export type AttestationHeadersParams = SetRequired<ActHeaders, 'mobileUid'>
 

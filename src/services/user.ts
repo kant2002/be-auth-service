@@ -1,8 +1,8 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { ActHeaders, ActionVersion, DocumentType, EResidentTokenData, SessionType, UserTokenData } from '@diia-inhouse/types'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { ActHeaders, ActionVersion, DocumentType, EResidentTokenData, SessionType, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { DiiaIdAction } from '@interfaces/services/diiaId'
 import {

@@ -1,7 +1,7 @@
 import { FilterQuery, UpdateQuery } from 'mongoose'
 import { v4 as uuid } from 'uuid'
 
-import { AccessDeniedError, BadRequestError, InternalServerError, ModelNotFoundError, UnprocessableEntityError } from '@diia-inhouse/errors'
+import { AccessDeniedError, BadRequestError, InternalServerError, ModelNotFoundError, UnprocessableEntityError } from '@kant2002-diia-inhouse/errors'
 import {
     AppUser,
     DocumentType,
@@ -10,8 +10,8 @@ import {
     ResidentshipStatus,
     SessionType,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import ProcessCodeDefinerService from './processCodeDefiner'
 

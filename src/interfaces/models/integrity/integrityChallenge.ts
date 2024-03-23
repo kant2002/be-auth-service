@@ -1,4 +1,4 @@
-import { ActHeaders } from '@diia-inhouse/types'
+import { ActHeaders } from '@kant2002-diia-inhouse/types'
 
 import { ExternalResponseEventError } from '@interfaces/externalEventListeners'
 

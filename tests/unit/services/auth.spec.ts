@@ -1,5 +1,5 @@
-import { BadRequestError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import AuthService from '@services/auth'
 import BankIdAuthMethodService from '@services/authMethods/bankId'

@@ -1,7 +1,7 @@
-import { AuthService } from '@diia-inhouse/crypto'
-import { BadRequestError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { AuthDocumentType, Gender, SessionType, UserTokenData, VerifiedBaseTokenData } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { AuthDocumentType, Gender, SessionType, UserTokenData, VerifiedBaseTokenData } from '@kant2002-diia-inhouse/types'
 
 import ProlongSessionAction from '@actions/v1/prolongSession'
 

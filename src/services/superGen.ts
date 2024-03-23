@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion } from '@diia-inhouse/types'
+import { ActionVersion } from '@kant2002-diia-inhouse/types'
 
 export default class SuperGenService {
     constructor(private readonly moleculer: MoleculerService) {}

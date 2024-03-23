@@ -1,8 +1,8 @@
 import { SessionByIdResponse } from '@generated/auth'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { BadRequestError, NotFoundError } from '@diia-inhouse/errors'
-import { Logger, UserTokenData } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { BadRequestError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import BankService from '@services/bank'
 import RefreshTokenService from '@services/refreshToken'

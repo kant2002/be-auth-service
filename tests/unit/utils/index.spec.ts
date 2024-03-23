@@ -16,11 +16,11 @@ function momentMock(...rest: unknown[]): Record<string, jest.MockableFunction> {
 momentMock.utc = jest.fn()
 
 jest.mock('moment', () => momentMock)
-jest.mock('@diia-inhouse/utils', () => ({ utils: { mapLatin } }))
+jest.mock('@kant2002-diia-inhouse/utils', () => ({ utils: { mapLatin } }))
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { AuthDocument, AuthDocumentType, AuthEntryPoint } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { AuthDocument, AuthDocumentType, AuthEntryPoint } from '@kant2002-diia-inhouse/types'
 
 import Utils from '@src/utils'
 

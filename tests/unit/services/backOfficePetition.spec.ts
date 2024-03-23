@@ -1,7 +1,7 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion, PortalUserPetitionPermissions, PortalUserPollPermissions } from '@diia-inhouse/types'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion, PortalUserPetitionPermissions, PortalUserPollPermissions } from '@kant2002-diia-inhouse/types'
 
 import BackOfficePetitionService from '@services/backOfficePetition'
 

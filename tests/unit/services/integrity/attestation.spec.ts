@@ -10,13 +10,13 @@ const attestationModelMock = {
 
 jest.mock('@models/integrity/attestation', () => attestationModelMock)
 
-import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@diia-inhouse/analytics'
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import AttestationService from '@services/integrity/attestation'
 import IntegrityChallengeResultService from '@services/integrity/challengeResult'

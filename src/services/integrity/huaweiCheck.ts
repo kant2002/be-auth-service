@@ -1,11 +1,11 @@
 import { FilterQuery } from 'mongoose'
 import { v4 as uuid } from 'uuid'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, ApiError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { ActHeaders, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, ApiError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { ActHeaders, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import IntegrityChallengeResultService from '@services/integrity/challengeResult'
 

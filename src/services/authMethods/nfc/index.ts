@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { AnalyticsActionResult, AnalyticsService } from '@diia-inhouse/analytics'
-import { AccessDeniedError, BadRequestError, NotFoundError } from '@diia-inhouse/errors'
-import { DocumentTypeCamelCase, Logger, UserTokenData } from '@diia-inhouse/types'
-import { phoneticChecker } from '@diia-inhouse/utils'
+import { AnalyticsActionResult, AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { AccessDeniedError, BadRequestError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { DocumentTypeCamelCase, Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
+import { phoneticChecker } from '@kant2002-diia-inhouse/utils'
 
 import NfcService from '@services/nfc'
 

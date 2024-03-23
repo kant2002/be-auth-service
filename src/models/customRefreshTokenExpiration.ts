@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { CustomRefreshTokenExpiration } from '@interfaces/models/customRefreshTokenExpiration'
 

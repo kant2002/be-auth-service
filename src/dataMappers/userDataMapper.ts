@@ -1,6 +1,6 @@
-import { BadRequestError } from '@diia-inhouse/errors'
-import { AuthDocument, AuthDocumentType, EResidency, Gender, User } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { AuthDocument, AuthDocumentType, EResidency, Gender, User } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import Utils from '@src/utils'
 

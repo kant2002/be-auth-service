@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion, CabinetUserSession, DocumentType, SessionType, UserSession } from '@diia-inhouse/types'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion, CabinetUserSession, DocumentType, SessionType, UserSession } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

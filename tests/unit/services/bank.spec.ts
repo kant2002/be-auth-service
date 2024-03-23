@@ -1,10 +1,10 @@
 import { RedlockMutex } from 'redis-semaphore'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { HttpService } from '@diia-inhouse/http'
-import { RedlockService, StoreService } from '@diia-inhouse/redis'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode, PlatformType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import { RedlockService, StoreService } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode, PlatformType } from '@kant2002-diia-inhouse/types'
 
 import BankService from '@services/bank'
 import FakeBankLoginService from '@services/fakeBankLogin'

@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto'
 
-import { EnvService } from '@diia-inhouse/env'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import AuthService from '@services/auth'
 import ProcessCodeDefinerService from '@services/userAuthSteps/processCodeDefiner'

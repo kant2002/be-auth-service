@@ -1,4 +1,4 @@
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 export interface ExternalResponseEventError {
     message: string

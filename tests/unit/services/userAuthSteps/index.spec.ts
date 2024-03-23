@@ -6,14 +6,14 @@ const diiaUtilsMock = {
 }
 
 jest.mock('uuid', () => ({ v4: uuidV4Stub }))
-jest.mock('@diia-inhouse/utils', () => ({ utils: diiaUtilsMock }))
+jest.mock('@kant2002-diia-inhouse/utils', () => ({ utils: diiaUtilsMock }))
 
 import { UpdateWriteOpResult } from 'mongoose'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, ApiError, BadRequestError, InternalServerError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, ApiError, BadRequestError, InternalServerError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import AppUtils from '@src/utils'
 

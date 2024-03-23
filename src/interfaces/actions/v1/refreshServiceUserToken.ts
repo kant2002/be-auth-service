@@ -1,4 +1,4 @@
-import { ActHeaders, ServiceUserActionArguments } from '@diia-inhouse/types'
+import { ActHeaders, ServiceUserActionArguments } from '@kant2002-diia-inhouse/types'
 
 interface ActionHeaders extends ActHeaders {
     token: string

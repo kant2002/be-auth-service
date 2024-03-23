@@ -1,7 +1,7 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { NotFoundError } from '@diia-inhouse/errors'
-import { StoreService } from '@diia-inhouse/redis'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import NonceService from '@services/nonce'
 

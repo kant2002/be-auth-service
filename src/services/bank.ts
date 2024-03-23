@@ -1,6 +1,6 @@
-import { HttpService } from '@diia-inhouse/http'
-import { RedlockService, StoreService } from '@diia-inhouse/redis'
-import { Logger, OnInit } from '@diia-inhouse/types'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import { RedlockService, StoreService } from '@kant2002-diia-inhouse/redis'
+import { Logger, OnInit } from '@kant2002-diia-inhouse/types'
 
 import FakeBankLoginService from '@services/fakeBankLogin'
 

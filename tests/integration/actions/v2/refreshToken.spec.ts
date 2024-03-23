@@ -1,5 +1,5 @@
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test/*'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test/*'
 
 import TestGetToken from '@actions/v1/testGetToken'
 import RefreshTokenAction from '@actions/v2/refreshToken'

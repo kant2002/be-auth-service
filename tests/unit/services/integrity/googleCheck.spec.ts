@@ -9,12 +9,12 @@ const googleIntegrityCheckModelMock = {
 
 jest.mock('@models/integrity/googleIntegrityCheck', () => googleIntegrityCheckModelMock)
 
-import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@diia-inhouse/analytics'
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { AnalyticsActionResult, AnalyticsActionType, AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import IntegrityChallengeResultService from '@services/integrity/challengeResult'
 import GoogleIntegrityCheckService from '@services/integrity/googleCheck'

@@ -1,5 +1,5 @@
-import { EventBusListener, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBusListener, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import RefreshTokenService from '@services/refreshToken'
 

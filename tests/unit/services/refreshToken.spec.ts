@@ -4,12 +4,12 @@ jest.mock('uuid', () => ({ v4: uuidV4Stub }))
 
 import { FilterQuery } from 'mongoose'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ModelNotFoundError, UnauthorizedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ModelNotFoundError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import { GenerateRefreshTokenHelper } from '@src/helpers/generateRefreshToken'
 

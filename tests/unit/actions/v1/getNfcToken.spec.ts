@@ -1,4 +1,4 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import GetNfcTokenAction from '@actions/v1/getNfcToken'
 

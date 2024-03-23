@@ -1,9 +1,9 @@
 import * as bcrypt from 'bcrypt'
 import { ObjectId } from 'bson'
 
-import { AuthService, IdentifierService } from '@diia-inhouse/crypto'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, ErrorType, ModelNotFoundError, ServiceUnavailableError, UnauthorizedError } from '@diia-inhouse/errors'
+import { AuthService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, ErrorType, ModelNotFoundError, ServiceUnavailableError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
 import {
     HttpStatusCode,
     Logger,
@@ -13,8 +13,8 @@ import {
     RefreshToken,
     ServiceUserTokenData,
     SessionType,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import Utils from '@src/utils'
 

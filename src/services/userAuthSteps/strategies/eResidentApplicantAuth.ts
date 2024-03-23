@@ -1,6 +1,6 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { EResidentApplicant, IdentifierPrefix, SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { EResidentApplicant, IdentifierPrefix, SessionType } from '@kant2002-diia-inhouse/types'
 
 import AuthService from '@services/auth'
 import UserAuthStepsAuthDataService from '@services/userAuthSteps/authData'

@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, HttpStatusCode } from '@diia-inhouse/types'
+import { AppUserActionHeaders, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 export interface GetUserDataParams {
     statusCode?: HttpStatusCode

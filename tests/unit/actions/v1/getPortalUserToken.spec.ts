@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { PortalUser } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PortalUser } from '@kant2002-diia-inhouse/types'
 
 import GetPortalUserTokenAction from '@actions/v1/getPortalUserToken'
 

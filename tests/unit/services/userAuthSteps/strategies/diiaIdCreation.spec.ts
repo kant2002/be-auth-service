@@ -1,9 +1,9 @@
 import { randomUUID } from 'crypto'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import ProcessCodeDefinerService from '@services/userAuthSteps/processCodeDefiner'
 import { DiiaIdCreationStrategyService } from '@services/userAuthSteps/strategies'

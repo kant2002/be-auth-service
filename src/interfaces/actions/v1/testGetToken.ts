@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, Gender, ServiceActionArguments } from '@diia-inhouse/types'
+import { AppUserActionHeaders, Gender, ServiceActionArguments } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends ServiceActionArguments<AppUserActionHeaders> {
     params: {

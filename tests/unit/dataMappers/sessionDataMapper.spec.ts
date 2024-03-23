@@ -1,10 +1,10 @@
 import { randomUUID } from 'crypto'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { InternalServerError } from '@diia-inhouse/errors'
-import { I18nService } from '@diia-inhouse/i18n'
-import { mockInstance } from '@diia-inhouse/test'
-import { AuthDocumentType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { I18nService } from '@kant2002-diia-inhouse/i18n'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { AuthDocumentType } from '@kant2002-diia-inhouse/types'
 
 import refreshToken from '@models/refreshToken'
 

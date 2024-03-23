@@ -1,10 +1,10 @@
 import { randomUUID } from 'crypto'
 import fs from 'fs'
 
-import { BadRequestError, InternalServerError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { I18nService } from '@diia-inhouse/i18n'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { Gender, PlatformType } from '@diia-inhouse/types'
+import { BadRequestError, InternalServerError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { I18nService } from '@kant2002-diia-inhouse/i18n'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { Gender, PlatformType } from '@kant2002-diia-inhouse/types'
 
 import AuthSchemaService from '@services/authSchema'
 

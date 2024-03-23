@@ -1,10 +1,10 @@
 import { randomUUID } from 'crypto'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@diia-inhouse/http'
-import { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@kant2002-diia-inhouse/http'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import EnemyTrackTelegramBotService from '@src/providers/enemyTrack/telegramBot'
 

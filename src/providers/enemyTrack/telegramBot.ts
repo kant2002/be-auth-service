@@ -1,8 +1,8 @@
 import * as qs from 'querystring'
 
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@diia-inhouse/http'
-import { HttpStatusCode, Logger } from '@diia-inhouse/types'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse, HttpServiceResponseResult } from '@kant2002-diia-inhouse/http'
+import { HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 import { QueryParams } from '@interfaces/providers/enemyTrack/telegramBot'

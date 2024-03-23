@@ -1,6 +1,6 @@
-import { EnvService } from '@diia-inhouse/env'
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import AuthService from '@services/auth'
 

@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto'
 
-import { BadRequestError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import SaveNfcScanResultEventListener from '@src/externalEventListeners/authNfcSaveScanResult'
 

@@ -1,6 +1,6 @@
-import { NotFoundError } from '@diia-inhouse/errors'
-import { StoreService } from '@diia-inhouse/redis'
-import { Logger } from '@diia-inhouse/types'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 export default class NonceService {
     constructor(

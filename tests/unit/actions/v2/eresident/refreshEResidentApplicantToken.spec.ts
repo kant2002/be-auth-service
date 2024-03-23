@@ -1,6 +1,6 @@
-import { AuthService } from '@diia-inhouse/crypto'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { EResidentApplicantTokenData, SessionType, VerifiedBaseTokenData } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { EResidentApplicantTokenData, SessionType, VerifiedBaseTokenData } from '@kant2002-diia-inhouse/types'
 
 import RefreshEResidentApplicantTokenAction from '@actions/v2/eresident/refreshEResidentApplicantToken'
 

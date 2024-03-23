@@ -1,4 +1,4 @@
-import { CacheService } from '@diia-inhouse/redis'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
 
 export default class TokenCacheService {
     constructor(private readonly cache: CacheService) {}

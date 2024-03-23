@@ -17,11 +17,11 @@ class SignerMock {
 jest.mock('monobank-api-client/src/Endpoint', () => Endpoint)
 jest.mock('monobank-api-client/src/Signer', () => SignerMock)
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { BadRequestError, HttpError, UnauthorizedError } from '@diia-inhouse/errors'
-import { HttpService } from '@diia-inhouse/http'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { BadRequestError, HttpError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import MonobankProvider from '@services/authMethods/monobank'
 

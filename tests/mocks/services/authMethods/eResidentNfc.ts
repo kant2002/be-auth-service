@@ -1,4 +1,4 @@
-import TestKit from '@diia-inhouse/test'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import DocumentsService from '@services/documents'
 import NfcService from '@services/nfc'

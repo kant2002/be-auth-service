@@ -1,4 +1,4 @@
-import { EnvService } from '@diia-inhouse/env'
+import { EnvService } from '@kant2002-diia-inhouse/env'
 
 import AuthService from '@services/auth'
 

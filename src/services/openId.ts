@@ -1,8 +1,8 @@
 import { UserOpenIdData } from '@generated/auth'
 
-import { AuthService as AuthCryptoService } from '@diia-inhouse/crypto'
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { DocumentType, SessionType } from '@diia-inhouse/types'
+import { AuthService as AuthCryptoService } from '@kant2002-diia-inhouse/crypto'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, PortalUserPermissions } from '@diia-inhouse/types'
+import { ActionVersion, PortalUserPermissions } from '@kant2002-diia-inhouse/types'
 
 export default class BackOfficePetitionService {
     constructor(private readonly moleculer: MoleculerService) {}

@@ -1,7 +1,7 @@
 import { authenticator } from 'otplib'
 
-import { AccessDeniedError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import EnemyTrackProvider from '@src/providers/enemyTrack/telegramBot'
 

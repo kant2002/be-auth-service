@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, UserTokenData } from '@diia-inhouse/types'
+import { AppUserActionHeaders, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { MrzPayload, QesPayload, QrCodePayload } from '@interfaces/services/userAuthSteps'
 

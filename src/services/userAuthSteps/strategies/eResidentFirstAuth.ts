@@ -1,7 +1,7 @@
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { EnvService } from '@diia-inhouse/env'
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import { IdentifierPrefix, Logger, SessionType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { IdentifierPrefix, Logger, SessionType } from '@kant2002-diia-inhouse/types'
 
 import AuthService from '@services/auth'
 import EResidentFirstAuthService from '@services/eResidentFirstAuth'

@@ -1,5 +1,5 @@
-import { EventBusListener, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBusListener, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 export default class AuthNfcInnByUnzr implements EventBusListener {
     readonly event: ExternalEvent = ExternalEvent.AuthGetInnByUnzr
