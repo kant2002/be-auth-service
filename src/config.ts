@@ -279,6 +279,7 @@ export default async (envService: EnvService, serviceName: string) => ({
         clientId: envService.getVar('BANK_ID_ACCESS_CLIENT_ID'),
         clientSecret: envService.getVar('BANK_ID_ACCESS_CLIENT_SECRET'),
         host: envService.getVar('BANK_ID_API_HOST'),
+        port: envService.getVar('BANK_ID_API_PORT', "number", undefined),
         tokenPath: envService.getVar('BANK_ID_API_URL_TOKEN_PATH'),
         userPath: envService.getVar('BANK_ID_API_URL_USER_PATH'),
         authPath: envService.getVar('BANK_ID_API_URL_AUTH_PATH'),

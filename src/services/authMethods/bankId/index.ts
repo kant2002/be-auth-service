@@ -69,6 +69,7 @@ export default class BankIdProvider implements AuthProviderFactory {
     private getAuthUrl(bankId: string): string {
         const { bankId: bankIdConfig } = this.config
         const host = bankIdConfig.host
+        const port = bankIdConfig.port
         const path = bankIdConfig.authPath
         const clientId = bankIdConfig.clientId
         const state = uuid()
@@ -76,9 +77,9 @@ export default class BankIdProvider implements AuthProviderFactory {
         const { bankIdVersion, datasetInUse } = this.config.bankId
         switch (bankIdVersion) {
             case BankIdVersion.V1:
-                return `https://${host}${path}?response_type=code&client_id=${clientId}&state=${state}&bank_id=${bankId}`
+                return `https://${host}${port ? ':'+port : ''}${path}?response_type=code&client_id=${clientId}&state=${state}&bank_id=${bankId}`
             case BankIdVersion.V2:
-                return `https://${host}${path}?response_type=code&client_id=${clientId}&state=${state}&bank_id=${bankId}&dataset=${datasetInUse}`
+                return `https://${host}${port ? ':'+port : ''}${path}?response_type=code&client_id=${clientId}&state=${state}&bank_id=${bankId}&dataset=${datasetInUse}`
             default: {
                 const unhandledBankIdVersion: never = bankIdVersion
 
@@ -197,6 +198,7 @@ export default class BankIdProvider implements AuthProviderFactory {
         return await this.httpsService.post(
             {
                 host: this.config.bankId.host,
+                port: this.config.bankId.port,
                 path: this.config.bankId.tokenPath,
                 timeout: this.config.app.integrationPointsTimeout,
                 headers: {
@@ -269,6 +271,7 @@ export default class BankIdProvider implements AuthProviderFactory {
         const resp = await this.httpsService.post(
             {
                 host: this.config.bankId.host,
+                port: this.config.bankId.port,
                 path: this.config.bankId.userPath,
                 headers: {
                     Authorization: `Bearer ${token}`,

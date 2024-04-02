@@ -21,6 +21,7 @@ export interface BankIdConfig {
     clientId: string
     clientSecret: string
     host: string
+    port?: number
     tokenPath: string
     userPath: string
     authPath: string
