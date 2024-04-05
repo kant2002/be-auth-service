@@ -155,13 +155,14 @@ export default class BankService implements OnInit {
 
         const [err, response] = await this.httpsService.get({
             host: this.config.bankId.host,
+            port: this.config.bankId.port,
             path: this.bankIdPathBanksList,
             timeout: this.bankIdHttpTimeout,
             rejectUnauthorized: this.config.bankId.rejectUnauthorized,
         })
 
         if (err) {
-            this.logger.error('Failed to get bank-id banks', err)
+            this.logger.error('Failed to get bank-id banks', { err })
 
             return
         }

@@ -22,7 +22,7 @@ export default class BankDataMapper {
             bankId: id,
             name,
             memberId,
-            logoUrl: `https://${this.config.bankId.host}/${logoUrl}`,
+            logoUrl: `https://${this.config.bankId.host}${this.config.bankId.port ? ':' + this.config.bankId.port : ''}/${logoUrl}`,
             workable,
             sortOrder: order,
         }
